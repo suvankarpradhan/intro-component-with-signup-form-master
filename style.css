@@ -79,7 +79,7 @@ form {
 .offer > p > span {
   font-weight: 400;
 }
-label {
+.label {
   float: right;
   color: hsl(0, 100%, 74%);
   margin-bottom: 2%;
