@@ -38,7 +38,7 @@ Users should be able to:
 
 ## My process
 
-First create a html, css, and JS file and link them. In html file I create the structure of faq-accordion-card-main then add some classes for using css and use JS to make site interactive.
+First create a html, css, and JS file and link them. In html file I create the structure of Intro component with sign up form then add some classes for using css and use JS to make site interactive.
 
 ### Built with
 
