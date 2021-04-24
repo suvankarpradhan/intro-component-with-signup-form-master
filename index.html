@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-portion">
+        <h1>
+          Learn to code by<br />
+          watching others
+        </h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="right-portion">
+        <div class="offer">
+          <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+        </div>
+        <form action="">
+          <div class="first-name">
+            <input type="text" name="fname" placeholder="First Name" />
+            <div class="fname error">
+              <img src="images/icon-error.svg" alt="" />
+            </div>
+          </div>
+          <label for="fname"></label>
+
+          <div class="last-name">
+            <input type="text" name="lname" placeholder="Last Name" />
+            <div class="lname error">
+              <img src="images/icon-error.svg" alt="" />
+            </div>
+          </div>
+          <label for="lname"></label>
+
+          <div class="email">
+            <input type="email" name="email" placeholder="Email Address" />
+            <div class="mail error">
+              <img src="images/icon-error.svg" alt="" />
+            </div>
+          </div>
+          <label for="email"></label>
+
+          <div class="password">
+            <input type="password" name="pward" placeholder="Password" />
+            <div class="pward error">
+              <img src="images/icon-error.svg" alt="" />
+            </div>
+          </div>
+          <label for="pward"></label>
+
+          <button class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+          <div class="notice">
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Suvankar Pradhan</a>.
+      </p>
+    </footer>
+  </body>
+</html>
