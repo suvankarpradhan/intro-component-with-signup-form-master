@@ -56,7 +56,7 @@ form {
   flex-direction: row;
   width: 100%;
   height: 40px;
-  border: 2px solid hsl(246, 25%, 77%);
+  border: 1px solid hsl(246, 25%, 77%);
   border-radius: 4px;
   font-weight: 400;
   margin-top: 5%;
@@ -145,4 +145,34 @@ button:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background: url("images/bg-intro-mobile.png"), hsl(0, 100%, 74%) no-repeat;
+    background-size: contain;
+  }
+  .container {
+    flex-direction: column;
+    margin: 12% 6%;
+  }
+  .left-portion,
+  .right-portion {
+    flex: 100%;
+    padding: 0%;
+  }
+  .left-portion {
+    text-align: center;
+  }
+  .left-portion > h1 {
+    font-size: 30px;
+  }
+  .left-portion > p {
+    margin: 3% 6% 15%;
+  }
+  .offer {
+    margin-bottom: 8%;
+  }
+  .offer > p {
+    padding: 3% 15%;
+  }
 }
